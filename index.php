@@ -13,9 +13,9 @@ $total               = $_REQUEST['total'];
 $cedula              = $_REQUEST['cc'];
 $name                = $_REQUEST['name'];
 
-var_dump($method, "HOLA", $x_cod_response);
-var_dump($_REQUEST);
-die();
+// var_dump($method, "HOLA", $x_cod_response);
+// var_dump($_REQUEST);
+// die();
 
 if ($x_cod_response) {
     switch ((int) $x_cod_response) {
